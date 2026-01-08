@@ -22,7 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->btn8, &QPushButton::clicked, this, &MainWindow::onNumberClicked);
     connect(ui->btn9, &QPushButton::clicked, this, &MainWindow::onNumberClicked);
     connect(ui->btnDot, &QPushButton::clicked, this, &MainWindow::onNumberClicked);
-// Operator buttons
+
+    // Operator buttons
     connect(ui->btnAdd, &QPushButton::clicked, this, &MainWindow::onOperatorClicked);
     connect(ui->btnSub, &QPushButton::clicked, this, &MainWindow::onOperatorClicked);
     connect(ui->btnMul, &QPushButton::clicked, this, &MainWindow::onOperatorClicked);
